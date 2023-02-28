@@ -1,0 +1,11 @@
+aws_region              = "us-east-1"
+vpc_cidr_block          = "10.20.0.0/16"
+instance_tenancy        = "default"
+name                    = "DeeEcs"
+env                     = "dev"
+publicsubnet_cidr_block = ["10.20.1.0/24", "10.20.2.0/24", "10.20.3.0/24"]
+azs                     = ["us-east-1a", "us-east-1b", "us-east-1c"]
+sg_cidr_blocks          = ["0.0.0.0/0"]
+instance_type           = "t2.micro"
+key_name                = "NVirginiaPC"
+imagename               = "ami-00874d747dde814fa"
